@@ -1,6 +1,6 @@
 import { useContext } from 'react';
 import { DataContext } from './DataContext';
-import './PublicSection.css'; // Add a CSS file for styling
+import './PublicSection.css'; 
 
 export default function PublicSection() {
   const { posts } = useContext(DataContext);
